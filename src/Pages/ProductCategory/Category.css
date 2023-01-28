@@ -1,0 +1,25 @@
+.productCategory{
+    padding: 0 20px 60px 20px;
+}
+.productCategory h1{
+    padding-bottom: 2%;
+    font-size: 35px;
+    color: rgb(19, 58, 19);
+    font-family: 'Libre Baskerville', serif;
+}
+
+.AllProducts button{
+    font-size: 40px;
+    width: 90%;
+    border-radius: 40%;
+    border: 1px solid rgba(0, 100, 0, 0.194);
+    padding: 10px 0px;
+    color: rgb(2, 38, 2);
+    background-color: rgba(60, 98, 2, 0.265);
+}
+.AllProducts button:hover{
+    background-color: rgba(60, 98, 2, 0.807);
+    border: 1px solid rgba(0, 100, 0, 0.315);
+    color: rgba(106, 238, 106, 0.947);
+    cursor: pointer;
+}

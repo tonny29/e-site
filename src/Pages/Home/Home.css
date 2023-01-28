@@ -1,0 +1,32 @@
+.HomeTop{
+    padding: 10px;
+}
+.toptext{
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Libre Baskerville', serif;
+}
+.toptext h1{
+    font-size: 50px;
+    padding-bottom: 5%;
+    color: rgb(19, 58, 19);
+    text-shadow: 1px 1px 2px white, 0 0 1em rgb(78, 106, 36), 0 0 0.2em rgb(78, 106, 36);
+}
+.toptext button{
+    background-color: rgb(59, 98, 2);
+    color: white;
+    font-size: 16px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    margin-top: 12%;
+    padding: 10px 50px;
+    letter-spacing: 2px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 1px solid rgba(188, 220, 141, 0.755);
+}
+.toptext button:hover{
+    background-color: rgba(188, 220, 141, 0.755);
+    color:rgb(42, 68, 4);
+    border: 1px solid darkgreen;
+}
