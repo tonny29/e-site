@@ -1,0 +1,25 @@
+.shippingSytem{
+    margin: 0 45px;
+    padding-bottom: 50px;
+}
+.singleShipping{
+    background-color: rgba(144, 238, 144, 0.166);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 5px;
+    border: 1px solid rgba(60, 98, 2, 0.109);
+}
+.iconStyle{
+    font-size: 35px;
+    color: rgba(2, 38, 2, 0.668);
+}
+.singleShipping h6{
+    font-weight: 800;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.singleShipping p{
+    font-weight: 400;
+    color: rgb(110, 98, 98);
+}

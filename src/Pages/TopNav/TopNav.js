@@ -12,8 +12,11 @@ import {
   Typography,
 } from "@mui/material";
 import React from "react";
+import FeatureProduct from "../AllProducts/FeatureProduct/FeatureProduct";
 import Home from "../Home/Home";
+import PopularSale from "../PopularSale/PopularSale";
 import Category from "../ProductCategory/Category";
+import ShippingSystem from "../Shipping/ShippingSystem";
 
 const pages = ["Products", "Pricing", "Blog"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
@@ -38,7 +41,7 @@ const TopNav = () => {
 
   return (
     <div>
-      <AppBar position="static" sx={{bgcolor:"rgb(59, 98, 2)"}}>
+      <AppBar position="static" sx={{bgcolor:"rgba(60, 98, 2, 0.807)"}}>
         <Container maxWidth="xl">
           <Toolbar disableGutters>
             <Typography
@@ -165,6 +168,9 @@ const TopNav = () => {
         <br />
         <br />
         <Category></Category>
+        <ShippingSystem></ShippingSystem>
+        <FeatureProduct></FeatureProduct>
+        <PopularSale></PopularSale>
       </div>
     </div>
   );
