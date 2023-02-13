@@ -30,29 +30,70 @@ const FeatureProduct = () => {
               <CardMedia
                 sx={{ height: 300 }}
                 image={sofa}
-                title="green iguana"
+                title="green sofa"
               />
               <CardContent>
-                <Typography gutterBottom component="div">
+                <Typography gutterBottom>
+                  <div>
                   <h3>Brand Watch</h3>
+                  </div>
                 </Typography>
               </CardContent>
             </Card>
           </div>
         </Grid>
         <Grid item xs={3}>
-          <div>
-            <img src={wareDrobe} alt="" />
+        <div className="featuredProduct">
+            <Card>
+              <CardMedia
+                sx={{ height: 300 }}
+                image={wareDrobe}
+                title="green sofa"
+              />
+              <CardContent>
+              <Typography gutterBottom>
+                  <div>
+                  <h3>Brand Watch</h3>
+                  </div>
+                </Typography>
+              </CardContent>
+            </Card>
           </div>
         </Grid>
         <Grid item xs={3}>
-          <div>
-            <img src={mobile} alt="" />
+        <div className="featuredProduct">
+            <Card>
+              <CardMedia
+                sx={{ height: 300 }}
+                image={bookSelf}
+                title="green sofa"
+              />
+              <CardContent>
+              <Typography gutterBottom>
+                  <div>
+                  <h3>Brand Watch</h3>
+                  </div>
+                </Typography>
+              </CardContent>
+            </Card>
           </div>
         </Grid>
         <Grid item xs={3}>
-          <div>
-            <img src={bookSelf} alt="" />
+        <div className="featuredProduct">
+            <Card>
+              <CardMedia
+                sx={{ height: 300 }}
+                image={mobile}
+                title="green sofa"
+              />
+              <CardContent>
+              <Typography gutterBottom>
+                  <div>
+                  <h3>Brand Watch</h3>
+                  </div>
+                </Typography>
+              </CardContent>
+            </Card>
           </div>
         </Grid>
       </Grid>

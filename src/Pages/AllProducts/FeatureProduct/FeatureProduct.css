@@ -13,5 +13,6 @@
     font-family: 'Libre Baskerville', serif;
 }
 .featuredProduct{
-    border: 1px solid blue;
+    border: 1px solid rgba(97, 7, 7, 0.381);
+    border-radius: 5px;
 }
