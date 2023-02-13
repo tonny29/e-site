@@ -41,7 +41,7 @@ const TopNav = () => {
 
   return (
     <div>
-      <AppBar position="static" sx={{bgcolor:"rgba(60, 98, 2, 0.807)"}}>
+      <AppBar position="static" sx={{bgcolor:"rgba(73, 4, 4, 0.616)"}}>
         <Container maxWidth="xl">
           <Toolbar disableGutters>
             <Typography

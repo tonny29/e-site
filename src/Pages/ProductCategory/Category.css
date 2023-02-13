@@ -5,7 +5,7 @@
 
     padding-bottom: 3%;
     font-size: 35px;
-    color: rgb(19, 58, 19);
+    color: rgb(77, 16, 16);
     font-family: 'Libre Baskerville', serif;
 }
 
@@ -13,14 +13,12 @@
     font-size: 40px;
     width: 90%;
     border-radius: 40%;
-    border: 1px solid rgba(0, 100, 0, 0.194);
+    border: 1px solid rgba(165, 42, 42, 0.307);
     padding: 10px 0px;
-    color: rgb(2, 38, 2);
-    background-color: rgba(144, 238, 144, 0.252);
+    color: rgb(57, 1, 1);
+    background-color: rgba(165, 42, 42, 0.087);
 }
 .AllProducts button:hover{
-    background-color: rgba(60, 98, 2, 0.807);
-    border: 1px solid rgba(0, 100, 0, 0.315);
-    color: rgba(106, 238, 106, 0.947);
+    background-color: rgba(83, 2, 2, 0.505);
     cursor: pointer;
 }

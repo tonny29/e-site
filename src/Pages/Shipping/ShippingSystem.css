@@ -3,16 +3,16 @@
     padding-bottom: 50px;
 }
 .singleShipping{
-    background-color: rgba(144, 238, 144, 0.166);
+    background-color: rgba(204, 62, 62, 0.171);
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     padding: 20px 5px;
-    border: 1px solid rgba(60, 98, 2, 0.109);
+    border: 1px solid rgba(165, 42, 42, 0.221);
 }
 .iconStyle{
     font-size: 35px;
-    color: rgba(2, 38, 2, 0.668);
+    color: rgba(73, 4, 4, 0.616);
 }
 .singleShipping h6{
     font-weight: 800;
@@ -21,5 +21,5 @@
 }
 .singleShipping p{
     font-weight: 400;
-    color: rgb(110, 98, 98);
+    color: gray;
 }

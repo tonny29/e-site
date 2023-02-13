@@ -1,7 +1,6 @@
 .products img{
    width: 100%;
    height: 300px;
-    border: 1px solid rgba(60, 98, 2, 0.344);
 }
 .NameAndView{
     display: flex;
@@ -10,6 +9,9 @@
 }
 .NameAndView p{
     font-weight: bold;
-    color: rgba(60, 98, 2, 0.807);
+    color: rgba(80, 1, 1, 0.728);
     font-family: 'Libre Baskerville', serif;
+}
+.featuredProduct{
+    border: 1px solid blue;
 }
