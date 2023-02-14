@@ -1,7 +1,4 @@
-.products img{
-   width: 100%;
-   height: 300px;
-}
+
 .NameAndView{
     display: flex;
     justify-content: space-between;
@@ -14,5 +11,13 @@
 }
 .featuredProduct{
     border: 1px solid rgba(97, 7, 7, 0.381);
-    border-radius: 5px;
+    border-radius: 2px;
+}
+.productName{
+    text-align: center;
+}
+.FeatureProductText{
+    display: flex;
+    justify-content: space-between;
+    
 }
