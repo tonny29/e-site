@@ -15,7 +15,7 @@ const itemData = [
   },
   {
     img: "https://images.unsplash.com/photo-1525097487452-6278ff080c31",
-    title: "Books",
+    title: "Books", 
     // author: "Pavel Nekoranec",
   },
   {
@@ -78,7 +78,7 @@ const Home = () => {
             It is a long established fact that a reader will be distracted by
             the readable there content of a page when looking at its layout.
           </p>
-          <button>See More <span>⇨</span></button>
+          <button>See More<span>⇨</span></button>
         </div>
       </Grid>
     </Grid>

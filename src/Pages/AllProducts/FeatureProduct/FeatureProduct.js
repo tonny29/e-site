@@ -44,7 +44,7 @@ const FeatureProduct = () => {
                       <p>10,000 $</p>
                     </div>
                   </div>
-                  <div>
+                  <div className="NameAndView">
                     <Link style={{ textDecoration: "none" }} to="/allProducts">
                       <p>
                         Veiw More <span>&#8594;</span>
@@ -60,14 +60,30 @@ const FeatureProduct = () => {
           <div className="featuredProduct">
             <Card>
               <CardMedia
-                sx={{ height: 300 }}
+                sx={{ height: 300 ,borderBottom:'1px solid rgba(97, 7, 7, 0.381)',borderRadius:'10px',boxShadow:'0 10px rgba(97, 7, 7, 0.23)' }}
                 image={wareDrobe}
                 title="green sofa"
               />
               <CardContent>
                 <Typography gutterBottom>
-                  <div>
-                    <h3>Brand Watch</h3>
+                  <h3 className="productName">GREEN SOFA</h3>
+                  <div className="FeatureProductText">
+                    <div>
+                      <p className="MoneyNot">12,000 $</p>
+                    </div>
+                    <div className="heartColor">
+                      <FontAwesomeIcon icon={faHeart} />
+                    </div>
+                    <div>
+                      <p>10,000 $</p>
+                    </div>
+                  </div>
+                  <div className="NameAndView">
+                    <Link style={{ textDecoration: "none" }} to="/allProducts">
+                      <p>
+                        Veiw More <span>&#8594;</span>
+                      </p>
+                    </Link>
                   </div>
                 </Typography>
               </CardContent>
@@ -78,14 +94,30 @@ const FeatureProduct = () => {
           <div className="featuredProduct">
             <Card>
               <CardMedia
-                sx={{ height: 300 }}
+                sx={{ height: 300 ,borderBottom:'1px solid rgba(97, 7, 7, 0.381)',borderRadius:'10px',boxShadow:'0 10px rgba(97, 7, 7, 0.23)' }}
                 image={bookSelf}
                 title="green sofa"
               />
               <CardContent>
                 <Typography gutterBottom>
-                  <div>
-                    <h3>Brand Watch</h3>
+                  <h3 className="productName">GREEN SOFA</h3>
+                  <div className="FeatureProductText">
+                    <div>
+                      <p className="MoneyNot">12,000 $</p>
+                    </div>
+                    <div className="heartColor">
+                      <FontAwesomeIcon icon={faHeart} />
+                    </div>
+                    <div>
+                      <p>10,000 $</p>
+                    </div>
+                  </div>
+                  <div className="NameAndView">
+                    <Link style={{ textDecoration: "none" }} to="/allProducts">
+                      <p>
+                        Veiw More <span>&#8594;</span>
+                      </p>
+                    </Link>
                   </div>
                 </Typography>
               </CardContent>
@@ -96,14 +128,30 @@ const FeatureProduct = () => {
           <div className="featuredProduct">
             <Card>
               <CardMedia
-                sx={{ height: 300 }}
+                sx={{ height: 300 ,borderBottom:'1px solid rgba(97, 7, 7, 0.381)',borderRadius:'10px',boxShadow:'0 10px rgba(97, 7, 7, 0.23)' }}
                 image={mobile}
                 title="green sofa"
               />
               <CardContent>
                 <Typography gutterBottom>
-                  <div>
-                    <h3>Brand Watch</h3>
+                  <h3 className="productName">GREEN SOFA</h3>
+                  <div className="FeatureProductText">
+                    <div>
+                      <p className="MoneyNot">12,000 $</p>
+                    </div>
+                    <div className="heartColor">
+                      <FontAwesomeIcon icon={faHeart} />
+                    </div>
+                    <div>
+                      <p>10,000 $</p>
+                    </div>
+                  </div>
+                  <div className="NameAndView">
+                    <Link style={{ textDecoration: "none" }} to="/allProducts">
+                      <p>
+                        Veiw More <span>&#8594;</span>
+                      </p>
+                    </Link>
                   </div>
                 </Typography>
               </CardContent>

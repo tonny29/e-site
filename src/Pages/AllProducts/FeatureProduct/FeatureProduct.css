@@ -7,17 +7,24 @@
 .NameAndView p{
     font-weight: bold;
     color: rgba(80, 1, 1, 0.728);
-    font-family: 'Libre Baskerville', serif;
 }
 .featuredProduct{
-    border: 1px solid rgba(97, 7, 7, 0.381);
-    border-radius: 2px;
+    border: 3px solid rgba(97, 7, 7, 0.073);
+    border-radius: 15px;
 }
 .productName{
     text-align: center;
+    font-size: 20px;
+    
 }
 .FeatureProductText{
     display: flex;
     justify-content: space-between;
-    
+    padding: 30px 0;
+}
+.MoneyNot{
+    text-decoration: line-through;
+}
+.heartColor{
+    color: brown;
 }
